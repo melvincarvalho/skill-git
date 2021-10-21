@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">  
-Update an autonomous agent
+Add git to an autonomous agent
 </div>
 
 ---
@@ -25,8 +25,10 @@ git is a modular skill to be used in composing [autonomous agents](https://aam.w
 
 ## Installation
 
+To see [INSTALL](INSTALL) instruction run
+
 ```sh
-npm install skill-git
+aam skill git
 ```
 
 ## License
