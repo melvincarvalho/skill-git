@@ -16,8 +16,9 @@ Add git to an autonomous agent
   
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/melvincarvalho/skill-git/blob/gh-pages/LICENSE)
-![npm](https://img.shields.io/npm/v/skill-git)
+[![npm](https://img.shields.io/npm/v/skill-git)](https://npmjs.com/package/skill-git)
 [![npm](https://img.shields.io/npm/dw/skill-git.svg)](https://npmjs.com/package/skill-git)
+[![Github Stars](https://img.shields.io/github/stars/melvincarvalho/skill-git.svg)](https://github.com/melvincarvalho/skill-git/)
 
 ## Introduction
 
