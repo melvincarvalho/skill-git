@@ -1,14 +1,30 @@
-# PREREQUISITES
 # Start a git origin e.g. on github
+
+# PREREQUISITES
+# install git
 sudo apt install git
 
-# INSTALL
+# INIT
 git init
+
+# OPTIONAL
+
+# COMMIT FILES
 git add .
 git commit -m "first release"
+
+# REMOTES - example 1 - use github
 git remote add origin git@github.com:username/new_repo
 git push -u origin gh-pages
 
+# REMOTES - example 2 - use git daemon
+git daemon --base-path=. --export-all --verbose
+
 # CONFIG
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
 
 # NOTES
+# many options for git, include, file server, ssh, github, gitea, gitlab, gitosis, git daemon, webdav, apache
+# link: http://www.jedi.be/blog/2009/05/06/8-ways-to-share-your-git-repository/
+# user.email can be a URI, e.g. HTTP URI
