@@ -25,6 +25,6 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 
 # NOTES
-# many options for git, include, file server, ssh, github, gitea, gitlab, gitosis, git daemon, webdav, apache
+# many options for git, include, file server, ssh, github, gitea, gitlab, gitosis, gogs, git daemon, webdav, apache
 # link: http://www.jedi.be/blog/2009/05/06/8-ways-to-share-your-git-repository/
 # user.email can be a URI, e.g. HTTP URI
